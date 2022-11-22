@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../user/repel js"
+		},
+		{
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"formulahendry.code-runner",
+			"ritwickdey.liveserver",
+			"thekalinga.bootstrap4-vscode",
+			"bradlc.vscode-tailwindcss",
+			"Blackboxapp.blackbox"
+		]
+	},
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Gamma"
+	}
+}

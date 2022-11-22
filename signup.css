@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body{
+  background-image: url('singup.jpg');
+  background-size: 100pc;
+  width: 100%;
+  height: 1200px;
+  background-repeat: repeat-y;
+
+}   
+
+
+.hero{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+ 
+}
+
+nav{
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(241, 240, 240);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a:hover{
+  color: rgb(46, 184, 131);
+}
+.skills{
+  
+  padding: 1.6rem 1rem;
+  color: rgb(0, 255, 170);
+}
+.skills div{
+  float: left;
+}
+.skills h2{
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.skills ul li{
+  display: inline-block;
+  list-style-type: none;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  padding: .4rem;
+  border-radius: 0.2rem;
+ margin: 0.2rem 0.1rem;
+}
+.skill{
+  position: relative;
+  background-color:transparent;
+}
+.skill span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color:rgb(255, 255, 255);
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+#namespan{
+  color: green;
+}
+/*pro*/
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+.content h2 {
+  left: 20%;
+  color:blueviolet;
+  font-size:2.4rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.logo a{
+  font-weight: 700;
+}
+#pi{
+  font: sizes 2.5rem; 
+  
+  
+  
+  
+    background-color:transparent;
+    color: #fff;
+   
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+      0 0 200px #0072ff;
+  }
+  
+  #apple,
+  #twitter,
+  #github,
+  #facebook {
+    
+    font-size: 6em;
+    background-color: #18191f;
+    color: #fff;
+    box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+      2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+      inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+      inset 2px 2px 10px #00000080;
+    border-radius: 29px;
+    padding: 11px 19px;
+    margin: 0 40px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+      0 0 200px #0072ff;
+  }
+  #twitter {
+    animation-delay: 0.3s;
+  }
+  #facebook {
+    animation-delay: 0.7s;
+  }
+  #github {
+    animation-delay: 0.1s;
+  }
+  
+  @keyframes animate {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    to {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+/*-------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+body {
+    margin: 0px;
+}
+
+
+#container4 {
+  bottom: 500px;
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+
+    filter: url(#threshold) blur(0.6px);
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 80pt;
+
+    text-align: center;
+
+    user-select: none;
+}
